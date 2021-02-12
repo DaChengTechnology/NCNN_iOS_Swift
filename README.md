@@ -22,7 +22,7 @@ pod 'NCNN_iOS_Swift'
 
 ## Author
 
-412200533@qq.com, 412200533@qq.com
+DaChengTechnology
 
 ## License
 

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'NCNN_iOS_Swift'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of NCNN_iOS_Swift.'
+  s.summary          = 'NCNN_iOS_Swift is ncnn library swift interface.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,18 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  ncnn is a high-performance neural network inference framework optimized for the mobile platform.
                        DESC
 
-  s.homepage         = 'https://github.com/412200533@qq.com/NCNN_iOS_Swift'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/DaChengTechnology/NCNN_iOS_Swift'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '412200533@qq.com' => '412200533@qq.com' }
-  s.source           = { :git => 'https://github.com/412200533@qq.com/NCNN_iOS_Swift.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'DaChengTechnology' => '412200533@qq.com' }
+  s.source           = { :git => 'https://github.com/DaChengTechnology/NCNN_iOS_Swift.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'NCNN_iOS_Swift/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'NCNN_iOS_Swift' => ['NCNN_iOS_Swift/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.dependency 'NCNN_IOS'
 end
