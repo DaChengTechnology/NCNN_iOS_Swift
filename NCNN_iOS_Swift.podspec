@@ -32,4 +32,5 @@ Pod::Spec.new do |s|
   
   s.public_header_files = 'Pod/Classes/**/*.h'
   s.dependency 'NCNN_IOS'
+  s.static_framework = true
 end
